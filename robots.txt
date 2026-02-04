@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mbgames.42web.io/sitemap.xml
+Sitemap: https://mbgames.versel.app/sitemap.xml

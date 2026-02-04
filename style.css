@@ -1,0 +1,143 @@
+/* Google Font Gaming */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #020617, #0f172a, #020617);
+  color: #f8fafc;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #020617, #1e293b, #020617);
+  text-align: center;
+  padding: 25px;
+  font-size: 32px;
+  color: #38bdf8;
+  text-shadow: 0 0 10px #38bdf8;
+}
+
+/* TITULOS */
+h1, h2, h3 {
+  text-align: center;
+  color: #facc15;
+  text-shadow: 0 0 5px black;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* IMAGEM PRINCIPAL */
+.game-image img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.8);
+  margin-bottom: 25px;
+}
+
+/* INFO DO JOGO */
+.details {
+  background: rgba(30, 41, 59, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px black;
+}
+
+/* BOTÃO DOWNLOAD */
+.download-btn {
+  display: inline-block;
+  padding: 18px 40px;
+  background: #dc2626;
+  border: 3px solid #2563eb;
+  border-radius: 100px;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 0 20px rgba(37,99,235,0.6);
+margin-right: 100px;
+}
+
+.download-btn:hover {
+  background: #b91c1c;
+  transform: scale(1.08);
+  box-shadow: 0 0 30px rgba(37,99,235,1);
+}
+
+/* GRID DE JOGOS */
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* CARD */
+.game-card {
+  background: linear-gradient(180deg, #020617, #1e293b);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 0 20px black;
+  transition: 0.3s;
+}
+
+.game-card:hover {
+  transform: translateY(-8px) scale(1.04);
+}
+
+/* IMAGEM CARD */
+.game-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* TITULO CARD */
+.game-card h3 {
+  margin: 10px;
+  font-size: 16px;
+  color: #38bdf8;
+}
+
+/* BOTÃO CARD */
+.game-card a {
+  display: block;
+  margin: 12px;
+  padding: 10px;
+  background: #22c55e;
+  color: black;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 50px;
+  padding: 25px;
+  background: #020617;
+  text-align: center;
+  color: #94a3b8;
+}
+
+footer a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #f87171;
+}
