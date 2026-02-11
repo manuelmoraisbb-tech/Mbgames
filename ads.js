@@ -27,3 +27,16 @@
   l.parentNode.insertBefore(s, l);
 })({});
 
+// Script 3
+(function (abc) {
+  var d = document,
+      s = d.createElement('script'),
+      l = d.scripts[d.scripts.length - 1];
+
+  s.settings = abc || {};
+  s.src = "https://pl28342391.effectivegatecpm.com/cb/72/11/cb7211b9f7e3a2318623e7b50a8f2b80.js";
+  s.async = true;
+  s.referrerPolicy = "no-referrer-when-downgrade";
+
+  l.parentNode.insertBefore(s, l);
+})({});
