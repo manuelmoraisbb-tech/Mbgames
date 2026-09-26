@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-hover: var(--primary-hover);
+  --color-navy: var(--navy);
+  --color-navy-foreground: var(--navy-foreground);
+
+  --radius-card: 0.75rem;
+}
+
+:root {
+  --background: #eceff4;
+  --foreground: #0f1729;
+  --surface: #ffffff;
+  --surface-muted: #f4f6fa;
+  --border: #e2e6ee;
+  --muted: #667089;
+  --primary: #2456e6;
+  --primary-hover: #1c46c2;
+  --primary-foreground: #ffffff;
+  --navy: #0a1020;
+  --navy-foreground: #e8ecf6;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
