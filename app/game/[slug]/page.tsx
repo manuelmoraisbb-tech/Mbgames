@@ -73,7 +73,7 @@ export default async function GamePage({
         </nav>
 
         <div className="mb-3">
-          <CategoryBadge category={game.category} />
+          <CategoryBadge category={game.category} asLink />
         </div>
         <h1 className="font-display text-2xl font-bold leading-tight text-foreground text-balance sm:text-3xl">
           <span className="text-primary">[{game.size}]</span> {game.title} Highly Compressed
