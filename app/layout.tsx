@@ -27,6 +27,9 @@ export const metadata: Metadata = {
     "Download 90+ highly compressed PSP games for the PPSSPP emulator on Android and PC. God of War, PES, Naruto, Tekken, GTA and more, ready to play.",
   keywords: ["PPSSPP", "PSP games", "MBgames", "PSP ISO download", "highly compressed", "emulator"],
   authors: [{ name: "MBgames" }],
+  other: {
+    monetag: "abeec958a7fecba1193518060833b127",
+  },
   openGraph: {
     title: "MBgames - Highly Compressed PSP Games for PPSSPP",
     description: "Download 90+ highly compressed PSP games for PPSSPP on Android and PC.",
