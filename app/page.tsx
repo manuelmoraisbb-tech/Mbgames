@@ -62,7 +62,7 @@ export default function HomePage() {
           <section>
             <SectionHeading title="Browse All Games" />
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
-              {all.map((g) => (
+              {all.slice(0, 12).map((g) => (
                 <GameGridCard key={g.slug} game={g} />
               ))}
             </div>
@@ -71,7 +71,7 @@ export default function HomePage() {
                 href="/games"
                 className="inline-flex items-center justify-center rounded-lg bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground shadow-sm transition-colors hover:bg-primary-hover"
               >
-                View all games
+                View all {all.length} games
               </Link>
             </div>
           </section>
